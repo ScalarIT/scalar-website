@@ -22,12 +22,12 @@
     <!-- Header y Navegación -->
     <header
       id="header"
-      class="bg-slate-900/80 backdrop-blur-sm fixed top-0 left-0 right-0 z-50 transition-all duration-300 shadow-md"
+      class="bg-slate-900/95 backdrop-blur-sm fixed top-0 left-0 right-0 z-50 transition-all duration-300 shadow-lg border-b border-slate-700"
     >
       <div
         class="container mx-auto px-6 py-4 flex justify-between items-center"
       >
-        <a href="#inicio" class="text-2xl font-bold text-white tracking-wider">
+        <a href="#inicio" class="text-3xl font-bold text-white tracking-wider">
           Scal<span class="text-sky-400">Ar</span>
         </a>
         <nav class="hidden md:flex space-x-8">
@@ -77,13 +77,13 @@
       <!-- Sección Inicio (Banner) -->
       <section
         id="inicio"
-        class="min-h-screen flex items-center bg-cover bg-center"
+        class="min-h-screen flex items-center bg-cover bg-center bg-fixed"
         style="
           background-image: linear-gradient(
               rgba(15, 23, 42, 0.8),
               rgba(15, 23, 42, 1)
             ),
-            url('https://placehold.co/1920x1080/0f172a/38bdf8?text=Innovacion+Digital');
+            url('https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=2400&h=1600&fit=crop&q=85&auto=format');
         "
       >
         <div class="container mx-auto px-6 text-center">
@@ -94,14 +94,15 @@
             <span class="text-sky-400">Soluciones Digitales</span> del Futuro
           </h1>
           <p class="text-lg md:text-xl text-slate-300 max-w-3xl mx-auto">
-            En ScalAr, transformamos tus ideas en aplicaciones web y móviles
-            robustas, escalables y centradas en el usuario.
+            En <span class="text-sky-400 font-semibold">ScalAr</span>,
+            transformamos ideas en aplicaciones web y móviles robustas,
+            escalables y centradas en el usuario.
           </p>
         </div>
       </section>
 
       <!-- Sección Servicios -->
-      <section id="servicios" class="py-20 md:py-32">
+      <section id="servicios" class="py-20 md:py-32 border-t border-slate-800">
         <div class="container mx-auto px-6">
           <div class="text-center mb-12">
             <h2 class="section-title text-3xl md:text-4xl font-bold text-white">
@@ -159,79 +160,59 @@
               Nuestros Proyectos
             </h2>
           </div>
-          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            <!-- Proyecto 1 -->
-            <div
-              class="bg-slate-800 rounded-lg overflow-hidden shadow-lg transform hover:-translate-y-2 transition-transform duration-300 group"
-            >
-              <img
-                src="https://placehold.co/600x400/1e293b/ffffff?text=Proyecto+Alfa"
-                alt="Imagen del Proyecto Alfa"
-                class="w-full h-48 object-cover"
-              />
-              <div class="p-6">
-                <h3 class="text-xl font-bold text-white mb-2">Proyecto Alfa</h3>
-                <p class="text-slate-400 text-sm">
-                  Una plataforma de e-commerce diseñada para optimizar la
-                  experiencia de compra y la gestión de inventario.
-                </p>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+            <!-- Proyecto 1: Dólar ahora -->
+            <a href="dolar-ahora.html" class="block">
+              <div
+                class="bg-slate-800 rounded-lg overflow-hidden shadow-lg transform hover:-translate-y-2 transition-transform duration-300 group"
+              >
+                <div class="bg-black p-4">
+                  <img
+                    src="static/img/dolar-ahora.png"
+                    alt="Captura de la aplicación Dólar ahora"
+                    class="w-full h-64 object-contain"
+                  />
+                </div>
+                <div class="p-6">
+                  <h3 class="text-xl font-bold text-white mb-2">Dólar ahora</h3>
+                  <p class="text-slate-400 text-sm">
+                    Cotizaciones en tiempo real de todos los dólares financieros
+                    argentinos, convertidor de divisas e información actualizada
+                    del mercado argentino.
+                  </p>
+                  <p class="text-sky-400 text-sm mt-3 font-medium">
+                    Ver más →
+                  </p>
+                </div>
               </div>
-            </div>
-            <!-- Proyecto 2 -->
-            <div
-              class="bg-slate-800 rounded-lg overflow-hidden shadow-lg transform hover:-translate-y-2 transition-transform duration-300 group"
-            >
-              <img
-                src="https://placehold.co/600x400/1e293b/ffffff?text=Proyecto+Beta"
-                alt="Imagen del Proyecto Beta"
-                class="w-full h-48 object-cover"
-              />
-              <div class="p-6">
-                <h3 class="text-xl font-bold text-white mb-2">Proyecto Beta</h3>
-                <p class="text-slate-400 text-sm">
-                  Aplicación móvil para la gestión de tareas y colaboración en
-                  equipo, enfocada en la productividad.
-                </p>
+            </a>
+            <!-- Proyecto 2: Soprano -->
+            <a href="soprano.html" class="block">
+              <div
+                class="bg-slate-800 rounded-lg overflow-hidden shadow-lg transform hover:-translate-y-2 transition-transform duration-300 group"
+              >
+                <div class="bg-black p-4">
+                  <img
+                    src="static/img/soprano.png"
+                    alt="Captura de la aplicación Soprano: Mercados & Finanzas"
+                    class="w-full h-64 object-contain"
+                  />
+                </div>
+                <div class="p-6">
+                  <h3 class="text-xl font-bold text-white mb-2">
+                    Soprano: Mercados & Finanzas
+                  </h3>
+                  <p class="text-slate-400 text-sm">
+                    Seguimiento de acciones, índices y mercados globales en vivo.
+                    Interfaz simple con noticias financieras, ganadores,
+                    perdedores y acciones en tendencia.
+                  </p>
+                  <p class="text-sky-400 text-sm mt-3 font-medium">
+                    Ver más →
+                  </p>
+                </div>
               </div>
-            </div>
-            <!-- Proyecto 3 -->
-            <div
-              class="bg-slate-800 rounded-lg overflow-hidden shadow-lg transform hover:-translate-y-2 transition-transform duration-300 group"
-            >
-              <img
-                src="https://placehold.co/600x400/1e293b/ffffff?text=Proyecto+Gamma"
-                alt="Imagen del Proyecto Gamma"
-                class="w-full h-48 object-cover"
-              />
-              <div class="p-6">
-                <h3 class="text-xl font-bold text-white mb-2">
-                  Proyecto Gamma
-                </h3>
-                <p class="text-slate-400 text-sm">
-                  Sistema de reservas online para el sector hotelero, con
-                  integraciones de pago y gestión de calendarios.
-                </p>
-              </div>
-            </div>
-            <!-- Proyecto 4 -->
-            <div
-              class="bg-slate-800 rounded-lg overflow-hidden shadow-lg transform hover:-translate-y-2 transition-transform duration-300 group"
-            >
-              <img
-                src="https://placehold.co/600x400/1e293b/ffffff?text=Proyecto+Delta"
-                alt="Imagen del Proyecto Delta"
-                class="w-full h-48 object-cover"
-              />
-              <div class="p-6">
-                <h3 class="text-xl font-bold text-white mb-2">
-                  Proyecto Delta
-                </h3>
-                <p class="text-slate-400 text-sm">
-                  Una red social temática para conectar a profesionales de un
-                  nicho específico, con perfiles y foros.
-                </p>
-              </div>
-            </div>
+            </a>
           </div>
         </div>
       </section>
@@ -252,8 +233,8 @@
                 alt="Foto del Fundador 1"
                 class="w-40 h-40 rounded-full mx-auto mb-4 border-4 border-sky-400 shadow-xl"
               />
-              <h3 class="text-2xl font-bold text-white">Nombre Apellido 1</h3>
-              <p class="text-sky-400 font-medium">Co-Fundador & CEO</p>
+              <h3 class="text-2xl font-bold text-white">Nahuel Defeudi</h3>
+              <p class="text-sky-400 font-medium">Co-Fundador</p>
             </div>
             <!-- Fundador 2 -->
             <div class="text-center">
@@ -262,8 +243,8 @@
                 alt="Foto del Fundador 2"
                 class="w-40 h-40 rounded-full mx-auto mb-4 border-4 border-sky-400 shadow-xl"
               />
-              <h3 class="text-2xl font-bold text-white">Nombre Apellido 2</h3>
-              <p class="text-sky-400 font-medium">Co-Fundador & CTO</p>
+              <h3 class="text-2xl font-bold text-white">Franco Galfrascoli</h3>
+              <p class="text-sky-400 font-medium">Co-Fundador</p>
             </div>
           </div>
         </div>

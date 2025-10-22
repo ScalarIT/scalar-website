@@ -27,3 +27,35 @@ window.addEventListener("scroll", () => {
     header.classList.remove("py-2");
   }
 });
+
+// Marcar sección activa en la navbar
+const sections = document.querySelectorAll("section[id]");
+const navLinks = document.querySelectorAll(".nav-link");
+
+function highlightActiveSection() {
+  const scrollPosition = window.scrollY + 100; // Offset para activar antes
+
+  sections.forEach((section) => {
+    const sectionTop = section.offsetTop;
+    const sectionHeight = section.offsetHeight;
+    const sectionId = section.getAttribute("id");
+
+    if (
+      scrollPosition >= sectionTop &&
+      scrollPosition < sectionTop + sectionHeight
+    ) {
+      navLinks.forEach((link) => {
+        link.classList.remove("text-sky-400", "border-b-2", "border-sky-400");
+        link.classList.add("text-slate-200");
+        
+        if (link.getAttribute("href") === `#${sectionId}`) {
+          link.classList.remove("text-slate-200");
+          link.classList.add("text-sky-400", "border-b-2", "border-sky-400");
+        }
+      });
+    }
+  });
+}
+
+window.addEventListener("scroll", highlightActiveSection);
+window.addEventListener("load", highlightActiveSection);

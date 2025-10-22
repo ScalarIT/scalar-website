@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Soprano: Mercados & Finanzas - ScalAr</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Iconos (Lucide) -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="antialiased">
+    <!-- Header y Navegación -->
+    <header
+      id="header"
+      class="bg-slate-900/95 backdrop-blur-sm fixed top-0 left-0 right-0 z-50 transition-all duration-300 shadow-lg border-b border-slate-700"
+    >
+      <div
+        class="container mx-auto px-6 py-4 flex justify-between items-center"
+      >
+        <a href="index.html" class="text-3xl font-bold text-white tracking-wider">
+          Scal<span class="text-sky-400">Ar</span>
+        </a>
+        <nav class="hidden md:flex space-x-8">
+          <a href="index.html#servicios" class="nav-link text-slate-200 font-medium"
+            >Servicios</a
+          >
+          <a href="index.html#proyectos" class="nav-link text-slate-200 font-medium"
+            >Proyectos</a
+          >
+          <a href="index.html#nosotros" class="nav-link text-slate-200 font-medium"
+            >Nosotros</a
+          >
+          <a href="index.html#contacto" class="nav-link text-slate-200 font-medium"
+            >Contacto</a
+          >
+        </nav>
+        <button id="mobile-menu-button" class="md:hidden text-white">
+          <i data-lucide="menu"></i>
+        </button>
+      </div>
+      <!-- Menú Móvil -->
+      <div id="mobile-menu" class="hidden md:hidden bg-slate-900">
+        <a
+          href="index.html#servicios"
+          class="block text-center py-3 px-4 text-slate-200 hover:bg-sky-500/20"
+          >Servicios</a
+        >
+        <a
+          href="index.html#proyectos"
+          class="block text-center py-3 px-4 text-slate-200 hover:bg-sky-500/20"
+          >Proyectos</a
+        >
+        <a
+          href="index.html#nosotros"
+          class="block text-center py-3 px-4 text-slate-200 hover:bg-sky-500/20"
+          >Nosotros</a
+        >
+        <a
+          href="index.html#contacto"
+          class="block text-center py-3 px-4 text-slate-200 hover:bg-sky-500/20"
+          >Contacto</a
+        >
+      </div>
+    </header>
+
+    <main>
+      <!-- Hero Section -->
+      <section class="pt-32 pb-20 bg-gradient-to-b from-slate-900 to-slate-800">
+        <div class="container mx-auto px-6">
+          <div class="flex items-center gap-4 mb-6">
+            <a href="index.html#proyectos" class="text-sky-400 hover:text-sky-300 flex items-center gap-2">
+              <i data-lucide="arrow-left" class="w-5 h-5"></i>
+              Volver a proyectos
+            </a>
+          </div>
+          <div class="max-w-4xl mx-auto text-center">
+            <h1 class="text-5xl md:text-6xl font-bold text-white mb-6">
+              Soprano: Mercados & Finanzas
+            </h1>
+            <p class="text-xl text-slate-300 mb-8">
+              Plataforma global para seguir los mercados financieros más importantes del mundo en tiempo real
+            </p>
+            <div class="flex flex-wrap justify-center gap-3">
+              <span class="px-4 py-2 bg-sky-500/20 text-sky-400 rounded-full text-sm font-medium border border-sky-500/30">
+                React Native
+              </span>
+              <span class="px-4 py-2 bg-sky-500/20 text-sky-400 rounded-full text-sm font-medium border border-sky-500/30">
+                TypeScript
+              </span>
+              <span class="px-4 py-2 bg-sky-500/20 text-sky-400 rounded-full text-sm font-medium border border-sky-500/30">
+                Expo
+              </span>
+              <span class="px-4 py-2 bg-sky-500/20 text-sky-400 rounded-full text-sm font-medium border border-sky-500/30">
+                FastAPI
+              </span>
+              <span class="px-4 py-2 bg-sky-500/20 text-sky-400 rounded-full text-sm font-medium border border-sky-500/30">
+                React Query
+              </span>
+              <span class="px-4 py-2 bg-sky-500/20 text-sky-400 rounded-full text-sm font-medium border border-sky-500/30">
+                i18n
+              </span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Descripción del Proyecto -->
+      <section class="py-20 bg-slate-800/50">
+        <div class="container mx-auto px-6">
+          <div class="max-w-4xl mx-auto">
+            <h2 class="text-3xl md:text-4xl font-bold text-white mb-8 text-center">
+              Sobre el Proyecto
+            </h2>
+            <div class="bg-slate-800 rounded-lg p-8 border border-slate-700">
+              <h3 class="text-2xl font-bold text-white mb-4">¿Qué es Soprano?</h3>
+              <p class="text-slate-300 mb-6 leading-relaxed">
+                Soprano: Mercados & Finanzas es una aplicación móvil completa para inversores y 
+                traders que necesitan seguir los mercados globales. La aplicación ofrece cotizaciones 
+                en tiempo real de acciones de NYSE, NASDAQ, índices internacionales y commodities, 
+                con una interfaz simple e intuitiva que facilita el análisis y la toma de decisiones.
+              </p>
+              
+              <h3 class="text-2xl font-bold text-white mb-4 mt-8">¿Por qué nació este proyecto?</h3>
+              <p class="text-slate-300 mb-6 leading-relaxed">
+                El mundo financiero es cada vez más globalizado y los inversores necesitan acceder a 
+                información de múltiples mercados simultáneamente. Muchas aplicaciones existentes son 
+                complejas, están sobrecargadas de funciones innecesarias o carecen de datos actualizados. 
+              </p>
+              <p class="text-slate-300 leading-relaxed">
+                Soprano nació para llenar este vacío, ofreciendo una experiencia simplificada pero completa: 
+                datos en tiempo real, noticias financieras relevantes, listas de ganadores y perdedores del 
+                día, acciones en tendencia, y todo esto en una interfaz limpia que funciona en español, 
+                inglés y portugués, adaptándose a las preferencias de tema de cada usuario.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Tecnologías -->
+      <section class="py-20">
+        <div class="container mx-auto px-6">
+          <div class="max-w-4xl mx-auto">
+            <h2 class="text-3xl md:text-4xl font-bold text-white mb-12 text-center">
+              Stack Tecnológico
+            </h2>
+            
+            <!-- Frontend -->
+            <div class="mb-8">
+              <h3 class="text-2xl font-bold text-white mb-6 flex items-center gap-3">
+                <i data-lucide="smartphone" class="w-6 h-6 text-sky-400"></i>
+                Frontend Mobile
+              </h3>
+              <div class="grid md:grid-cols-2 gap-6">
+                <!-- React Native -->
+                <div class="bg-slate-800 rounded-lg p-6 border border-slate-700">
+                  <div class="flex items-center gap-4 mb-4">
+                    <div class="w-12 h-12 bg-sky-500/20 rounded-lg flex items-center justify-center">
+                      <i data-lucide="smartphone" class="w-6 h-6 text-sky-400"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white">React Native</h3>
+                  </div>
+                  <p class="text-slate-400">
+                    Framework multiplataforma para desarrollo móvil nativo en iOS y Android, 
+                    garantizando una experiencia fluida y rendimiento óptimo.
+                  </p>
+                </div>
+
+                <!-- TypeScript -->
+                <div class="bg-slate-800 rounded-lg p-6 border border-slate-700">
+                  <div class="flex items-center gap-4 mb-4">
+                    <div class="w-12 h-12 bg-sky-500/20 rounded-lg flex items-center justify-center">
+                      <i data-lucide="code" class="w-6 h-6 text-sky-400"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white">TypeScript</h3>
+                  </div>
+                  <p class="text-slate-400">
+                    Tipado estático para JavaScript que proporciona mayor robustez, 
+                    mantenibilidad y detección temprana de errores en el código.
+                  </p>
+                </div>
+
+                <!-- Expo -->
+                <div class="bg-slate-800 rounded-lg p-6 border border-slate-700">
+                  <div class="flex items-center gap-4 mb-4">
+                    <div class="w-12 h-12 bg-sky-500/20 rounded-lg flex items-center justify-center">
+                      <i data-lucide="zap" class="w-6 h-6 text-sky-400"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white">Expo</h3>
+                  </div>
+                  <p class="text-slate-400">
+                    Plataforma que acelera el desarrollo de React Native con herramientas 
+                    preconstruidas y actualizaciones over-the-air.
+                  </p>
+                </div>
+
+                <!-- React Query -->
+                <div class="bg-slate-800 rounded-lg p-6 border border-slate-700">
+                  <div class="flex items-center gap-4 mb-4">
+                    <div class="w-12 h-12 bg-sky-500/20 rounded-lg flex items-center justify-center">
+                      <i data-lucide="refresh-cw" class="w-6 h-6 text-sky-400"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white">React Query</h3>
+                  </div>
+                  <p class="text-slate-400">
+                    Biblioteca para gestión de estado del servidor, manejo de caché y 
+                    sincronización de datos en tiempo real, optimizando las peticiones API.
+                  </p>
+                </div>
+
+                <!-- i18n -->
+                <div class="bg-slate-800 rounded-lg p-6 border border-slate-700">
+                  <div class="flex items-center gap-4 mb-4">
+                    <div class="w-12 h-12 bg-sky-500/20 rounded-lg flex items-center justify-center">
+                      <i data-lucide="globe" class="w-6 h-6 text-sky-400"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white">i18n</h3>
+                  </div>
+                  <p class="text-slate-400">
+                    Internacionalización completa con soporte para español, inglés y portugués, 
+                    permitiendo a usuarios de diferentes regiones disfrutar la app en su idioma nativo.
+                  </p>
+                </div>
+
+                <!-- Theme Support -->
+                <div class="bg-slate-800 rounded-lg p-6 border border-slate-700">
+                  <div class="flex items-center gap-4 mb-4">
+                    <div class="w-12 h-12 bg-sky-500/20 rounded-lg flex items-center justify-center">
+                      <i data-lucide="palette" class="w-6 h-6 text-sky-400"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white">Soporte de Temas</h3>
+                  </div>
+                  <p class="text-slate-400">
+                    Sistema de temas personalizables que permite a los usuarios elegir entre 
+                    modo claro y oscuro, adaptándose a sus preferencias visuales.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Backend -->
+            <div class="mt-12">
+              <h3 class="text-2xl font-bold text-white mb-6 flex items-center gap-3">
+                <i data-lucide="server" class="w-6 h-6 text-sky-400"></i>
+                Backend API
+              </h3>
+              <div class="grid md:grid-cols-2 gap-6">
+                <!-- FastAPI -->
+                <div class="bg-slate-800 rounded-lg p-6 border border-slate-700">
+                  <div class="flex items-center gap-4 mb-4">
+                    <div class="w-12 h-12 bg-sky-500/20 rounded-lg flex items-center justify-center">
+                      <i data-lucide="zap" class="w-6 h-6 text-sky-400"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white">FastAPI</h3>
+                  </div>
+                  <p class="text-slate-400">
+                    Framework moderno de Python para construir APIs RESTful de alto rendimiento 
+                    con validación automática, documentación interactiva y tipado estático.
+                  </p>
+                </div>
+
+                <!-- Arquitectura en Capas -->
+                <div class="bg-slate-800 rounded-lg p-6 border border-slate-700">
+                  <div class="flex items-center gap-4 mb-4">
+                    <div class="w-12 h-12 bg-sky-500/20 rounded-lg flex items-center justify-center">
+                      <i data-lucide="layers" class="w-6 h-6 text-sky-400"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white">Arquitectura en Capas</h3>
+                  </div>
+                  <p class="text-slate-400">
+                    Estructura modular con separación clara entre rutas, servicios, 
+                    repositorios y modelos, garantizando escalabilidad y mantenibilidad.
+                  </p>
+                </div>
+
+                <!-- Patrones de Diseño -->
+                <div class="bg-slate-800 rounded-lg p-6 border border-slate-700">
+                  <div class="flex items-center gap-4 mb-4">
+                    <div class="w-12 h-12 bg-sky-500/20 rounded-lg flex items-center justify-center">
+                      <i data-lucide="box" class="w-6 h-6 text-sky-400"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white">Patrones de Diseño</h3>
+                  </div>
+                  <p class="text-slate-400">
+                    Implementación de patrones como Repository, Dependency Injection y Factory, 
+                    mejorando la estructura del código y facilitando el testing y mantenimiento.
+                  </p>
+                </div>
+
+                <!-- APIs Externas -->
+                <div class="bg-slate-800 rounded-lg p-6 border border-slate-700">
+                  <div class="flex items-center gap-4 mb-4">
+                    <div class="w-12 h-12 bg-sky-500/20 rounded-lg flex items-center justify-center">
+                      <i data-lucide="link" class="w-6 h-6 text-sky-400"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white">Integración de APIs</h3>
+                  </div>
+                  <p class="text-slate-400">
+                    Consumo de APIs financieras globales para obtener cotizaciones en tiempo real 
+                    de NYSE, NASDAQ y mercados internacionales.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Carrusel de Imágenes -->
+      <section class="py-20 bg-slate-800/50">
+        <div class="container mx-auto px-6">
+          <h2 class="text-3xl md:text-4xl font-bold text-white mb-12 text-center">
+            Capturas de la Aplicación
+          </h2>
+          <div class="max-w-5xl mx-auto">
+            <!-- Carrusel Container -->
+            <div class="relative">
+              <div id="carousel" class="overflow-hidden rounded-xl bg-black">
+                <div id="carousel-track" class="flex transition-transform duration-500 ease-in-out">
+                  <!-- Slide 1 -->
+                  <div class="carousel-slide min-w-full flex items-center justify-center p-8">
+                    <img
+                      src="static/img/soprano.png"
+                      alt="Pantalla principal de Soprano"
+                      class="max-h-[600px] object-contain rounded-lg"
+                    />
+                  </div>
+                  <!-- Slide 2 -->
+                  <div class="carousel-slide min-w-full flex items-center justify-center p-8">
+                    <img
+                      src="static/img/soprano.png"
+                      alt="Lista de ganadores y perdedores"
+                      class="max-h-[600px] object-contain rounded-lg"
+                    />
+                  </div>
+                  <!-- Slide 3 -->
+                  <div class="carousel-slide min-w-full flex items-center justify-center p-8">
+                    <img
+                      src="static/img/soprano.png"
+                      alt="Noticias financieras"
+                      class="max-h-[600px] object-contain rounded-lg"
+                    />
+                  </div>
+                </div>
+              </div>
+
+              <!-- Controles del Carrusel -->
+              <button
+                id="prev-btn"
+                class="absolute left-4 top-1/2 -translate-y-1/2 bg-slate-900/80 hover:bg-slate-900 text-white p-3 rounded-full transition-all"
+                aria-label="Anterior"
+              >
+                <i data-lucide="chevron-left" class="w-6 h-6"></i>
+              </button>
+              <button
+                id="next-btn"
+                class="absolute right-4 top-1/2 -translate-y-1/2 bg-slate-900/80 hover:bg-slate-900 text-white p-3 rounded-full transition-all"
+                aria-label="Siguiente"
+              >
+                <i data-lucide="chevron-right" class="w-6 h-6"></i>
+              </button>
+
+              <!-- Indicadores -->
+              <div class="flex justify-center gap-2 mt-6">
+                <button class="carousel-indicator w-3 h-3 rounded-full bg-sky-400 transition-all" data-slide="0"></button>
+                <button class="carousel-indicator w-3 h-3 rounded-full bg-slate-600 transition-all" data-slide="1"></button>
+                <button class="carousel-indicator w-3 h-3 rounded-full bg-slate-600 transition-all" data-slide="2"></button>
+              </div>
+            </div>
+
+            <!-- Descripción de la imagen actual -->
+            <div class="mt-8 text-center">
+              <p id="slide-description" class="text-lg text-slate-300">
+                Pantalla principal con mercados globales en tiempo real
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Características Destacadas -->
+      <section class="py-20">
+        <div class="container mx-auto px-6">
+          <div class="max-w-4xl mx-auto">
+            <h2 class="text-3xl md:text-4xl font-bold text-white mb-12 text-center">
+              Características Destacadas
+            </h2>
+            <div class="grid md:grid-cols-3 gap-6">
+              <div class="bg-slate-800 rounded-lg p-6 border border-slate-700 text-center">
+                <div class="w-16 h-16 bg-sky-500/20 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <i data-lucide="trending-up" class="w-8 h-8 text-sky-400"></i>
+                </div>
+                <h3 class="text-xl font-bold text-white mb-3">Datos en Vivo</h3>
+                <p class="text-slate-400">
+                  Cotizaciones en tiempo real de NYSE, NASDAQ e índices internacionales
+                </p>
+              </div>
+
+              <div class="bg-slate-800 rounded-lg p-6 border border-slate-700 text-center">
+                <div class="w-16 h-16 bg-sky-500/20 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <i data-lucide="newspaper" class="w-8 h-8 text-sky-400"></i>
+                </div>
+                <h3 class="text-xl font-bold text-white mb-3">Noticias</h3>
+                <p class="text-slate-400">
+                  Feed actualizado con las noticias financieras más relevantes del momento
+                </p>
+              </div>
+
+              <div class="bg-slate-800 rounded-lg p-6 border border-slate-700 text-center">
+                <div class="w-16 h-16 bg-sky-500/20 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <i data-lucide="trophy" class="w-8 h-8 text-sky-400"></i>
+                </div>
+                <h3 class="text-xl font-bold text-white mb-3">Top Performers</h3>
+                <p class="text-slate-400">
+                  Listas de ganadores, perdedores y acciones en tendencia actualizadas
+                </p>
+              </div>
+
+              <div class="bg-slate-800 rounded-lg p-6 border border-slate-700 text-center">
+                <div class="w-16 h-16 bg-sky-500/20 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <i data-lucide="globe" class="w-8 h-8 text-sky-400"></i>
+                </div>
+                <h3 class="text-xl font-bold text-white mb-3">Multi Idioma</h3>
+                <p class="text-slate-400">
+                  Disponible en español, inglés y portugués para alcance global
+                </p>
+              </div>
+
+              <div class="bg-slate-800 rounded-lg p-6 border border-slate-700 text-center">
+                <div class="w-16 h-16 bg-sky-500/20 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <i data-lucide="palette" class="w-8 h-8 text-sky-400"></i>
+                </div>
+                <h3 class="text-xl font-bold text-white mb-3">Temas</h3>
+                <p class="text-slate-400">
+                  Modo claro y oscuro para una experiencia visual personalizada
+                </p>
+              </div>
+
+              <div class="bg-slate-800 rounded-lg p-6 border border-slate-700 text-center">
+                <div class="w-16 h-16 bg-sky-500/20 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <i data-lucide="zap" class="w-8 h-8 text-sky-400"></i>
+                </div>
+                <h3 class="text-xl font-bold text-white mb-3">Simple</h3>
+                <p class="text-slate-400">
+                  Interfaz intuitiva y limpia enfocada en la experiencia del usuario
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CTA Section -->
+      <section class="py-20 bg-slate-800/50">
+        <div class="container mx-auto px-6 text-center">
+          <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">
+            ¿Interesado en un proyecto similar?
+          </h2>
+          <p class="text-lg text-slate-300 max-w-2xl mx-auto mb-8">
+            Podemos desarrollar la aplicación perfecta para tu negocio con tecnologías de vanguardia
+          </p>
+          <a
+            href="index.html#contacto"
+            class="bg-sky-500 hover:bg-sky-600 text-white font-bold py-3 px-8 rounded-full transition duration-300 inline-block text-lg"
+          >
+            Hablemos
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-slate-900 border-t border-slate-800">
+      <div class="container mx-auto px-6 py-6 text-center text-slate-400">
+        <p>&copy; 2025 ScalAr. Todos los derechos reservados.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+      // Carrusel de imágenes para Soprano
+      const carousel = document.getElementById('carousel-track');
+      const prevBtn = document.getElementById('prev-btn');
+      const nextBtn = document.getElementById('next-btn');
+      const indicators = document.querySelectorAll('.carousel-indicator');
+      const slideDescription = document.getElementById('slide-description');
+
+      const descriptions = [
+        'Pantalla principal con mercados globales en tiempo real',
+        'Lista de ganadores, perdedores y acciones en tendencia',
+        'Feed de noticias financieras actualizadas'
+      ];
+
+      let currentSlide = 0;
+      const totalSlides = 3;
+
+      function updateCarousel() {
+        carousel.style.transform = `translateX(-${currentSlide * 100}%)`;
+        
+        indicators.forEach((indicator, index) => {
+          if (index === currentSlide) {
+            indicator.classList.remove('bg-slate-600');
+            indicator.classList.add('bg-sky-400');
+          } else {
+            indicator.classList.remove('bg-sky-400');
+            indicator.classList.add('bg-slate-600');
+          }
+        });
+        
+        if (slideDescription) {
+          slideDescription.textContent = descriptions[currentSlide];
+        }
+      }
+
+      function nextSlide() {
+        currentSlide = (currentSlide + 1) % totalSlides;
+        updateCarousel();
+      }
+
+      function prevSlide() {
+        currentSlide = (currentSlide - 1 + totalSlides) % totalSlides;
+        updateCarousel();
+      }
+
+      if (nextBtn) {
+        nextBtn.addEventListener('click', nextSlide);
+      }
+
+      if (prevBtn) {
+        prevBtn.addEventListener('click', prevSlide);
+      }
+
+      indicators.forEach((indicator, index) => {
+        indicator.addEventListener('click', () => {
+          currentSlide = index;
+          updateCarousel();
+        });
+      });
+
+      let autoplayInterval = setInterval(nextSlide, 5000);
+
+      const carouselContainer = document.getElementById('carousel');
+      if (carouselContainer) {
+        carouselContainer.addEventListener('mouseenter', () => {
+          clearInterval(autoplayInterval);
+        });
+
+        carouselContainer.addEventListener('mouseleave', () => {
+          autoplayInterval = setInterval(nextSlide, 5000);
+        });
+      }
+
+      let touchStartX = 0;
+      let touchEndX = 0;
+
+      if (carouselContainer) {
+        carouselContainer.addEventListener('touchstart', (e) => {
+          touchStartX = e.changedTouches[0].screenX;
+        });
+
+        carouselContainer.addEventListener('touchend', (e) => {
+          touchEndX = e.changedTouches[0].screenX;
+          handleSwipe();
+        });
+      }
+
+      function handleSwipe() {
+        if (touchEndX < touchStartX - 50) {
+          nextSlide();
+        }
+        if (touchEndX > touchStartX + 50) {
+          prevSlide();
+        }
+      }
+    </script>
+  </body>
+</html>
