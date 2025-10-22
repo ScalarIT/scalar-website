@@ -1,2 +1,2 @@
-# scalar-website
+# Main Website
 Scalar's website
