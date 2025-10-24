@@ -5,14 +5,9 @@ const nextBtn = document.getElementById('next-btn');
 const indicators = document.querySelectorAll('.carousel-indicator');
 const slideDescription = document.getElementById('slide-description');
 
-const descriptions = [
-  'Pantalla principal con cotizaciones en tiempo real',
-  'Convertidor de divisas integrado',
-  'Información actualizada del mercado argentino'
-];
-
 let currentSlide = 0;
-const totalSlides = 3;
+// Detectar automáticamente el número de slides
+const totalSlides = indicators.length;
 
 function updateCarousel() {
   // Mover el carrusel
@@ -28,11 +23,6 @@ function updateCarousel() {
       indicator.classList.add('bg-slate-600');
     }
   });
-  
-  // Actualizar descripción
-  if (slideDescription) {
-    slideDescription.textContent = descriptions[currentSlide];
-  }
 }
 
 function nextSlide() {
