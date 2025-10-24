@@ -1,445 +1,419 @@
 <!DOCTYPE html>
 <html lang="es" class="scroll-smooth">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Franco Leonel Galfrascoli - Curriculum Vitae</title>
-    <!-- Tailwind CSS -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    <!-- Google Fonts: Inter -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
-    <!-- Iconos (Lucide) -->
-    <script src="https://unpkg.com/lucide@latest"></script>
-    <!-- Custom Styles -->
-    <link rel="stylesheet" href="../static/css/style.css" />
-  </head>
-  <body class="antialiased">
-    <!-- Header y Navegación -->
-    <header
-      id="header"
-      class="bg-slate-900/95 backdrop-blur-sm fixed top-0 left-0 right-0 z-50 transition-all duration-300 shadow-lg border-b border-slate-700"
-    >
-      <div
-        class="container mx-auto px-6 py-4 flex justify-between items-center"
-      >
-        <a href="../index.html" class="text-3xl font-bold text-white tracking-wider">
-          Scal<span class="text-sky-400">Ar</span>
-        </a>
-        <nav class="hidden md:flex space-x-8">
-          <a href="../index.html#servicios" class="nav-link text-slate-200 font-medium"
-            >Servicios</a
-          >
-          <a href="../index.html#proyectos" class="nav-link text-slate-200 font-medium"
-            >Proyectos</a
-          >
-          <a href="../index.html#nosotros" class="nav-link text-slate-200 font-medium"
-            >Nosotros</a
-          >
-          <a href="../index.html#contacto" class="nav-link text-slate-200 font-medium"
-            >Contacto</a
-          >
-        </nav>
-        <button id="mobile-menu-button" class="md:hidden text-white">
-          <i data-lucide="menu"></i>
-        </button>
-      </div>
-      <!-- Menú Móvil -->
-      <div id="mobile-menu" class="hidden md:hidden bg-slate-900">
-        <a
-          href="../index.html#servicios"
-          class="block text-center py-3 px-4 text-slate-200 hover:bg-sky-500/20"
-          >Servicios</a
-        >
-        <a
-          href="../index.html#proyectos"
-          class="block text-center py-3 px-4 text-slate-200 hover:bg-sky-500/20"
-          >Proyectos</a
-        >
-        <a
-          href="../index.html#nosotros"
-          class="block text-center py-3 px-4 text-slate-200 hover:bg-sky-500/20"
-          >Nosotros</a
-        >
-        <a
-          href="../index.html#contacto"
-          class="block text-center py-3 px-4 text-slate-200 hover:bg-sky-500/20"
-          >Contacto</a
-        >
-      </div>
-    </header>
 
-    <main class="pt-24 pb-20">
-      <!-- Sección Hero / Intro -->
-      <section class="py-16 bg-gradient-to-b from-slate-900 to-slate-800">
-        <div class="container mx-auto px-6">
-          <div class="flex flex-col md:flex-row items-center gap-8 max-w-5xl mx-auto">
-            <div class="flex-shrink-0">
-              <img
-                src="../static/img/founders/nahuel.png"
-                alt="Foto Nahuel Defeudi"
-                class="w-48 h-48 rounded-full border-4 border-sky-400 shadow-2xl object-cover"
-              />
-            </div>
-            <div class="text-center md:text-left">
-              <h1 class="text-4xl md:text-5xl font-bold text-white mb-3">
-                Nahuel Leandro Defeudi
-              </h1>
-              <p class="text-xl text-sky-400 font-medium mb-4">
-                Desarrollador Web & Mobile | React - React Native | TypeScript | FastAPI | Python Pandas
-              </p>
-              <p class="text-slate-300 mb-4">
-                <i data-lucide="map-pin" class="inline w-4 h-4"></i>
-                Buenos Aires, Provincia de Buenos Aires, Argentina
-              </p>
-              <div class="flex gap-4 justify-center md:justify-start">
-                <a
-                  href="mailto:nahueldefeudi@gmail.com"
-                  class="text-slate-300 hover:text-sky-400 transition"
-                  title="Email"
-                >
-                  <i data-lucide="mail" class="w-6 h-6"></i>
-                </a>
-                <a
-                  href="https://www.linkedin.com/in/nahuel-leandro-defeudi-9271a1390"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  class="text-slate-300 hover:text-sky-400 transition"
-                  title="LinkedIn"
-                >
-                  <i data-lucide="linkedin" class="w-6 h-6"></i>
-                </a>
-              </div>
-            </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Franco Leonel Galfrascoli - Curriculum Vitae</title>
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Google Fonts: Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <!-- Iconos (Lucide) -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="../static/css/style.css" />
+</head>
+
+<body class="antialiased">
+  <!-- Header y Navegación -->
+  <header id="header"
+    class="bg-slate-900/95 backdrop-blur-sm fixed top-0 left-0 right-0 z-50 transition-all duration-300 shadow-lg border-b border-slate-700">
+    <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+      <a href="../index.html" class="text-3xl font-bold text-white tracking-wider">
+        Scal<span class="text-sky-400">Ar</span>
+      </a>
+      <nav class="hidden md:flex space-x-8">
+        <a href="../index.html#servicios" class="nav-link text-slate-200 font-medium">Servicios</a>
+        <a href="../index.html#proyectos" class="nav-link text-slate-200 font-medium">Proyectos</a>
+        <a href="../index.html#nosotros" class="nav-link text-slate-200 font-medium">Nosotros</a>
+        <a href="../index.html#contacto" class="nav-link text-slate-200 font-medium">Contacto</a>
+      </nav>
+      <button id="mobile-menu-button" class="md:hidden text-white">
+        <i data-lucide="menu"></i>
+      </button>
+    </div>
+    <!-- Menú Móvil -->
+    <div id="mobile-menu" class="hidden md:hidden bg-slate-900">
+      <a href="../index.html#servicios"
+        class="block text-center py-3 px-4 text-slate-200 hover:bg-sky-500/20">Servicios</a>
+      <a href="../index.html#proyectos"
+        class="block text-center py-3 px-4 text-slate-200 hover:bg-sky-500/20">Proyectos</a>
+      <a href="../index.html#nosotros"
+        class="block text-center py-3 px-4 text-slate-200 hover:bg-sky-500/20">Nosotros</a>
+      <a href="../index.html#contacto"
+        class="block text-center py-3 px-4 text-slate-200 hover:bg-sky-500/20">Contacto</a>
+    </div>
+  </header>
+
+  <main class="pt-24 pb-20">
+    <!-- Sección Hero / Intro -->
+    <section class="py-16 bg-gradient-to-b from-slate-900 to-slate-800">
+      <div class="container mx-auto px-6">
+        <div class="flex flex-col md:flex-row items-center gap-8 max-w-5xl mx-auto">
+          <div class="flex-shrink-0">
+            <img src="../static/img/founders/nahuel.png" alt="Foto Nahuel Defeudi"
+              class="w-48 h-48 rounded-full border-4 border-sky-400 shadow-2xl object-cover" />
           </div>
-        </div>
-      </section>
-
-      <!-- Extracto -->
-      <section class="py-12 border-t border-slate-700">
-        <div class="container mx-auto px-6 max-w-4xl">
-          <h2 class="text-3xl font-bold text-white mb-6 flex items-center gap-3">
-            <i data-lucide="user" class="w-8 h-8 text-sky-400"></i>
-            Sobre mí
-          </h2>
-          <p class="text-lg text-slate-300 leading-relaxed">
-            Programador con experiencia en aplicaciones móviles/web, visualización y procesamiento de grandes volúmenes de datos. 
-            Trabajo con React - React Native, TypeScript, Python, Pandas, Jupyter, Notebook.
-            Me especializo en crear dashboards y soluciones móviles orientadas a una mejor experiencia de usuario.
-          </p>
-        </div>
-      </section>
-
-      <!-- Educación -->
-      <section class="py-12 bg-slate-800/50 border-t border-slate-700">
-        <div class="container mx-auto px-6 max-w-4xl">
-          <h2 class="text-3xl font-bold text-white mb-8 flex items-center gap-3">
-            <i data-lucide="graduation-cap" class="w-8 h-8 text-sky-400"></i>
-            Educación
-          </h2>
-          <div class="bg-slate-800 p-6 rounded-lg border border-slate-700">
-            <h3 class="text-xl font-bold text-white mb-2">Universidad Abierta Interamericana</h3>
-            <p class="text-sky-400 font-medium mb-2">Ingeniería en Sistemas Informáticos</p>
-            <p class="text-slate-400">Abril 2016 - Actualidad</p>
-          </div>
-        </div>
-      </section>
-
-      <!-- Stack Tecnológico -->
-      <section class="py-12 border-t border-slate-700">
-        <div class="container mx-auto px-6 max-w-4xl">
-          <h2 class="text-3xl font-bold text-white mb-8 flex items-center gap-3">
-            <i data-lucide="code-2" class="w-8 h-8 text-sky-400"></i>
-            Stack Tecnológico
-          </h2>
-          <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <!-- Frontend -->
-            <div class="bg-slate-800 p-6 rounded-lg border border-slate-700">
-              <h3 class="text-xl font-bold text-white mb-4 flex items-center gap-2">
-                <i data-lucide="layout" class="w-6 h-6 text-sky-400"></i>
-                Frontend & Mobile
-              </h3>
-              <ul class="space-y-2 text-slate-300">
-                <li class="flex items-center gap-2">
-                  <span class="w-2 h-2 bg-sky-400 rounded-full"></span>
-                  React & React Native
-                </li>
-                <li class="flex items-center gap-2">
-                  <span class="w-2 h-2 bg-sky-400 rounded-full"></span>
-                  TypeScript
-                </li>
-                <li class="flex items-center gap-2">
-                  <span class="w-2 h-2 bg-sky-400 rounded-full"></span>
-                  JavaScript
-                </li>
-                <li class="flex items-center gap-2">
-                  <span class="w-2 h-2 bg-sky-400 rounded-full"></span>
-                  HTML & CSS
-                </li>
-              </ul>
-            </div>
-
-            <!-- Backend & Data -->
-            <div class="bg-slate-800 p-6 rounded-lg border border-slate-700">
-              <h3 class="text-xl font-bold text-white mb-4 flex items-center gap-2">
-                <i data-lucide="database" class="w-6 h-6 text-sky-400"></i>
-                Backend & Data Science
-              </h3>
-              <ul class="space-y-2 text-slate-300">
-                <li class="flex items-center gap-2">
-                  <span class="w-2 h-2 bg-sky-400 rounded-full"></span>
-                  Python
-                </li>
-                <li class="flex items-center gap-2">
-                  <span class="w-2 h-2 bg-sky-400 rounded-full"></span>
-                  Pandas
-                </li>
-                <li class="flex items-center gap-2">
-                  <span class="w-2 h-2 bg-sky-400 rounded-full"></span>
-                  Jupyter Notebook
-                </li>
-                <li class="flex items-center gap-2">
-                  <span class="w-2 h-2 bg-sky-400 rounded-full"></span>
-                  FastAPI
-                </li>
-              </ul>
-            </div>
-
-            <!-- Herramientas -->
-            <div class="bg-slate-800 p-6 rounded-lg border border-slate-700">
-              <h3 class="text-xl font-bold text-white mb-4 flex items-center gap-2">
-                <i data-lucide="wrench" class="w-6 h-6 text-sky-400"></i>
-                Herramientas & Testing
-              </h3>
-              <ul class="space-y-2 text-slate-300">
-                <li class="flex items-center gap-2">
-                  <span class="w-2 h-2 bg-sky-400 rounded-full"></span>
-                  Selenium
-                </li>
-                <li class="flex items-center gap-2">
-                  <span class="w-2 h-2 bg-sky-400 rounded-full"></span>
-                  Git & GitHub
-                </li>
-                <li class="flex items-center gap-2">
-                  <span class="w-2 h-2 bg-sky-400 rounded-full"></span>
-                  VS Code
-                </li>
-              </ul>
-            </div>
-
-            <!-- Idiomas -->
-            <div class="bg-slate-800 p-6 rounded-lg border border-slate-700">
-              <h3 class="text-xl font-bold text-white mb-4 flex items-center gap-2">
-                <i data-lucide="globe" class="w-6 h-6 text-sky-400"></i>
-                Idiomas
-              </h3>
-              <ul class="space-y-2 text-slate-300">
-                <li class="flex items-center gap-2">
-                  <span class="w-2 h-2 bg-sky-400 rounded-full"></span>
-                  Español (Nativo)
-                </li>
-                <li class="flex items-center gap-2">
-                  <span class="w-2 h-2 bg-sky-400 rounded-full"></span>
-                  Inglés (Intermedio)
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- Proyectos -->
-      <section class="py-12 bg-slate-800/50 border-t border-slate-700">
-        <div class="container mx-auto px-6 max-w-5xl">
-          <h2 class="text-3xl font-bold text-white mb-8 flex items-center gap-3">
-            <i data-lucide="briefcase" class="w-8 h-8 text-sky-400"></i>
-            Proyectos Destacados
-          </h2>
-          <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <!-- Dólar Ahora -->
-            <div class="bg-slate-800 rounded-lg overflow-hidden border border-slate-700 hover:border-sky-400 transition-colors">
-              <div class="bg-black p-4">
-                <img
-                  src="../static/img/projects/dolar-ahora.png"
-                  alt="Dólar Ahora App"
-                  class="w-full h-48 object-contain"
-                />
-              </div>
-              <div class="p-6">
-                <h3 class="text-2xl font-bold text-white mb-3">Dólar Ahora</h3>
-                <p class="text-slate-300 mb-4">
-                  App móvil para seguir dólares financieros argentinos. Cotizaciones en tiempo real de todos los dólares financieros argentinos, convertidor de divisas e información actualizada del mercado.
-                </p>
-                <div class="mb-4">
-                  <h4 class="text-sm font-semibold text-sky-400 mb-2">Tecnologías:</h4>
-                  <div class="flex flex-wrap gap-2">
-                    <span class="px-3 py-1 bg-slate-700 text-slate-200 text-sm rounded-full">React Native</span>
-                    <span class="px-3 py-1 bg-slate-700 text-slate-200 text-sm rounded-full">TypeScript</span>
-                    <span class="px-3 py-1 bg-slate-700 text-slate-200 text-sm rounded-full">FastAPI</span>
-                  </div>
-                </div>
-                <a
-                  href="../projects/dolar-ahora.html"
-                  class="inline-flex items-center gap-2 text-sky-400 hover:text-sky-300 font-medium"
-                >
-                  Ver más detalles
-                  <i data-lucide="arrow-right" class="w-4 h-4"></i>
-                </a>
-              </div>
-            </div>
-
-            <!-- Soprano -->
-            <div class="bg-slate-800 rounded-lg overflow-hidden border border-slate-700 hover:border-sky-400 transition-colors">
-              <div class="bg-black p-4">
-                <img
-                  src="../static/img/projects/soprano.png"
-                  alt="Soprano Market & Finance App"
-                  class="w-full h-48 object-contain"
-                />
-              </div>
-              <div class="p-6">
-                <h3 class="text-2xl font-bold text-white mb-3">Soprano: Mercados & Finanzas</h3>
-                <p class="text-slate-300 mb-4">
-                  Gestión de portfolios y seguimiento de acciones. Seguimiento de acciones, índices y mercados globales en vivo con noticias financieras, ganadores, perdedores y acciones en tendencia.
-                </p>
-                <div class="mb-4">
-                  <h4 class="text-sm font-semibold text-sky-400 mb-2">Tecnologías:</h4>
-                  <div class="flex flex-wrap gap-2">
-                    <span class="px-3 py-1 bg-slate-700 text-slate-200 text-sm rounded-full">React Native</span>
-                    <span class="px-3 py-1 bg-slate-700 text-slate-200 text-sm rounded-full">TypeScript</span>
-                    <span class="px-3 py-1 bg-slate-700 text-slate-200 text-sm rounded-full">Python</span>
-                  </div>
-                </div>
-                <a
-                  href="../projects/soprano.html"
-                  class="inline-flex items-center gap-2 text-sky-400 hover:text-sky-300 font-medium"
-                >
-                  Ver más detalles
-                  <i data-lucide="arrow-right" class="w-4 h-4"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- Experiencia -->
-      <section class="py-12 border-t border-slate-700">
-        <div class="container mx-auto px-6 max-w-4xl">
-          <h2 class="text-3xl font-bold text-white mb-8 flex items-center gap-3">
-            <i data-lucide="building-2" class="w-8 h-8 text-sky-400"></i>
-            Experiencia Profesional
-          </h2>
-          <div class="space-y-8">
-            <!-- Experiencia 1 -->
-            <div class="bg-slate-800 p-6 rounded-lg border border-slate-700">
-              <div class="flex flex-col md:flex-row md:justify-between md:items-start mb-4">
-                <div>
-                  <h3 class="text-xl font-bold text-white mb-1">Analista de Datos</h3>
-                  <p class="text-sky-400 font-medium">Agencia de Recaudación y Control Aduanero</p>
-                  <p class="text-slate-400 text-sm">Provincia de Buenos Aires, Argentina</p>
-                </div>
-                <p class="text-slate-400 text-sm mt-2 md:mt-0">Enero 2023 - Presente (2 años 9 meses)</p>
-              </div>
-              <div class="space-y-4 text-slate-300">
-                <div>
-                  <h4 class="font-semibold text-white mb-2">• Desarrollo de Tableros de Control de Canales de Contacto</h4>
-                  <p class="text-sm">
-                    Desarrollo Full-Stack de un dashboard gerencial para la monitorización en tiempo real de los distintos canales de contacto con el ciudadano. 
-                    Se utilizó Python (Backend) para la lógica de negocio y APIs, JavaScript, HTML y CSS (Frontend) para la presentación y la interactividad.
-                  </p>
-                </div>
-                <div>
-                  <h4 class="font-semibold text-white mb-2">• Implementación de Tablero de Gestión de Tareas</h4>
-                  <p class="text-sm">
-                    Creación de un Tablero de Gestión de Tareas para uso interno, enfocado en la usabilidad y el alto rendimiento. 
-                    React para la construcción de la interfaz; Next.js para routing y SSR.
-                  </p>
-                </div>
-                <div>
-                  <h4 class="font-semibold text-white mb-2">• Desarrollo Integral de Dashboard Operacional (ETL y Automatización)</h4>
-                  <p class="text-sm">
-                    Ciclo completo de desarrollo de un dashboard para uso interno, abarcando desde la adquisición y preparación de los datos hasta su visualización final. 
-                    Se utilizó Selenium para la automatización de la extracción de datos de fuentes web dinámicas; Pandas y Jupyter Notebook para el proceso ETL 
-                    (limpieza y transformación); y JavaScript, HTML, CSS para la exposición y presentación de los resultados.
-                  </p>
-                </div>
-                <div>
-                  <h4 class="font-semibold text-white mb-2">• Análisis Avanzado de Datos para la Toma de Decisiones</h4>
-                  <p class="text-sm">
-                    Realización de análisis exploratorios y estadísticos sobre grandes volúmenes de datos, transformando datos crudos en insights estratégicos. 
-                    Uso intensivo de la librería Pandas en Python para la manipulación, agregación y procesamiento eficiente de Big Data y estructuras de datos complejas.
-                  </p>
-                </div>
-                <div>
-                  <h4 class="font-semibold text-white mb-2">• Automatización de Procesos Operativos (RPA)</h4>
-                  <p class="text-sm">
-                    Implementación de soluciones de automatización para extracción de datos con aplicaciones web internas y externas. 
-                    Selenium (Python) para la automatización y uso de bash.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- Visión -->
-      <section class="py-12 bg-slate-800/50 border-t border-slate-700">
-        <div class="container mx-auto px-6 max-w-4xl">
-          <h2 class="text-3xl font-bold text-white mb-6 flex items-center gap-3">
-            <i data-lucide="eye" class="w-8 h-8 text-sky-400"></i>
-            Mi Visión
-          </h2>
-          <div class="bg-gradient-to-r from-sky-500/10 to-blue-500/10 p-8 rounded-lg border border-sky-500/30">
-            <p class="text-lg text-slate-200 leading-relaxed">
-              Quixxxxxxxxxxxxxxxxxxxxxxxx
+          <div class="text-center md:text-left">
+            <h1 class="text-4xl md:text-5xl font-bold text-white mb-3">
+              Nahuel Leandro Defeudi
+            </h1>
+            <p class="text-xl text-sky-400 font-medium mb-4">
+              Desarrollador Web & Mobile | React - React Native | TypeScript | FastAPI | Python Pandas
             </p>
+            <p class="text-slate-300 mb-4">
+              <i data-lucide="map-pin" class="inline w-4 h-4"></i>
+              Buenos Aires, Provincia de Buenos Aires, Argentina
+            </p>
+            <div class="flex gap-4 justify-center md:justify-start">
+              <a href="mailto:nahueldefeudi@gmail.com" class="text-slate-300 hover:text-sky-400 transition"
+                title="Email">
+                <i data-lucide="mail" class="w-6 h-6"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/nahuel-leandro-defeudi-9271a1390" target="_blank"
+                rel="noopener noreferrer" class="text-slate-300 hover:text-sky-400 transition" title="LinkedIn">
+                <i data-lucide="linkedin" class="w-6 h-6"></i>
+              </a>
+            </div>
           </div>
         </div>
-      </section>
-
-      <!-- Call to Action -->
-      <section class="py-16 border-t border-slate-700">
-        <div class="container mx-auto px-6 text-center">
-          <h2 class="text-3xl font-bold text-white mb-4">¿Trabajemos juntos?</h2>
-          <p class="text-lg text-slate-300 max-w-2xl mx-auto mb-8">
-            Estoy siempre abierto a nuevos proyectos y oportunidades de colaboración. 
-            Si tienes una idea o proyecto en mente, no dudes en contactarme.
-          </p>
-          <div class="flex gap-4 justify-center flex-wrap">
-            <a
-              href="mailto:nahueldefeudi@gmail.com"
-              class="bg-sky-500 hover:bg-sky-600 text-white font-bold py-3 px-8 rounded-full transition duration-300 inline-flex items-center gap-2"
-            >
-              <i data-lucide="mail" class="w-5 h-5"></i>
-              Enviar Email
-            </a>
-            <a
-              href="https://www.linkedin.com/in/nahuel-leandro-defeudi-9271a1390"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="bg-slate-700 hover:bg-slate-600 text-white font-bold py-3 px-8 rounded-full transition duration-300 inline-flex items-center gap-2"
-            >
-              <i data-lucide="linkedin" class="w-5 h-5"></i>
-              Conectar en LinkedIn
-            </a>
-          </div>
-        </div>
-      </section>
-    </main>
-
-    <!-- Footer -->
-    <footer class="bg-slate-900 border-t border-slate-800">
-      <div class="container mx-auto px-6 py-6 text-center text-slate-400">
-        <p>&copy; 2025 Franco Leonel Galfrascoli. Todos los derechos reservados.</p>
       </div>
-    </footer>
+    </section>
 
-    <script src="../static/js/script.js"></script>
-  </body>
+    <!-- Extracto -->
+    <section class="py-12 border-t border-slate-700">
+      <div class="container mx-auto px-6 max-w-4xl">
+        <h2 class="text-3xl font-bold text-white mb-6 flex items-center gap-3">
+          <i data-lucide="user" class="w-8 h-8 text-sky-400"></i>
+          Sobre mí
+        </h2>
+        <p class="text-lg text-slate-300 leading-relaxed">
+          Programador con experiencia en aplicaciones móviles/web, visualización y procesamiento de grandes volúmenes de
+          datos.
+          Trabajo con React - React Native, TypeScript, Python, Pandas, Jupyter, Notebook.
+          Me especializo en crear dashboards y soluciones móviles orientadas a una mejor experiencia de usuario.
+        </p>
+      </div>
+    </section>
+
+    <!-- Educación -->
+    <section class="py-12 bg-slate-800/50 border-t border-slate-700">
+      <div class="container mx-auto px-6 max-w-4xl">
+        <h2 class="text-3xl font-bold text-white mb-8 flex items-center gap-3">
+          <i data-lucide="graduation-cap" class="w-8 h-8 text-sky-400"></i>
+          Educación
+        </h2>
+        <div class="bg-slate-800 p-6 rounded-lg border border-slate-700">
+          <h3 class="text-xl font-bold text-white mb-2">Universidad Abierta Interamericana</h3>
+          <p class="text-sky-400 font-medium mb-2">Ingeniería en Sistemas Informáticos</p>
+          <p class="text-slate-400">Abril 2016 - Actualidad</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Stack Tecnológico -->
+    <section class="py-12 border-t border-slate-700">
+      <div class="container mx-auto px-6 max-w-4xl">
+        <h2 class="text-3xl font-bold text-white mb-8 flex items-center gap-3">
+          <i data-lucide="code-2" class="w-8 h-8 text-sky-400"></i>
+          Stack Tecnológico
+        </h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <!-- Frontend -->
+          <div class="bg-slate-800 p-6 rounded-lg border border-slate-700">
+            <h3 class="text-xl font-bold text-white mb-4 flex items-center gap-2">
+              <i data-lucide="layout" class="w-6 h-6 text-sky-400"></i>
+              Frontend & Mobile
+            </h3>
+            <ul class="space-y-2 text-slate-300">
+              <li class="flex items-center gap-2">
+                <span class="w-2 h-2 bg-sky-400 rounded-full"></span>
+                React & React Native
+              </li>
+              <li class="flex items-center gap-2">
+                <span class="w-2 h-2 bg-sky-400 rounded-full"></span>
+                TypeScript
+              </li>
+              <li class="flex items-center gap-2">
+                <span class="w-2 h-2 bg-sky-400 rounded-full"></span>
+                JavaScript
+              </li>
+              <li class="flex items-center gap-2">
+                <span class="w-2 h-2 bg-sky-400 rounded-full"></span>
+                HTML & CSS
+              </li>
+            </ul>
+          </div>
+
+          <!-- Backend & Data -->
+          <div class="bg-slate-800 p-6 rounded-lg border border-slate-700">
+            <h3 class="text-xl font-bold text-white mb-4 flex items-center gap-2">
+              <i data-lucide="database" class="w-6 h-6 text-sky-400"></i>
+              Backend & Data Science
+            </h3>
+            <ul class="space-y-2 text-slate-300">
+              <li class="flex items-center gap-2">
+                <span class="w-2 h-2 bg-sky-400 rounded-full"></span>
+                Python
+              </li>
+              <li class="flex items-center gap-2">
+                <span class="w-2 h-2 bg-sky-400 rounded-full"></span>
+                Pandas
+              </li>
+              <li class="flex items-center gap-2">
+                <span class="w-2 h-2 bg-sky-400 rounded-full"></span>
+                Jupyter Notebook
+              </li>
+              <li class="flex items-center gap-2">
+                <span class="w-2 h-2 bg-sky-400 rounded-full"></span>
+                FastAPI
+              </li>
+              <li class="flex items-center gap-2">
+                <span class="w-2 h-2 bg-sky-400 rounded-full"></span>
+                C# .NET
+              </li>
+            </ul>
+          </div>
+
+          <!-- Herramientas -->
+          <div class="bg-slate-800 p-6 rounded-lg border border-slate-700">
+            <h3 class="text-xl font-bold text-white mb-4 flex items-center gap-2">
+              <i data-lucide="wrench" class="w-6 h-6 text-sky-400"></i>
+              Herramientas & Testing
+            </h3>
+            <ul class="space-y-2 text-slate-300">
+              <li class="flex items-center gap-2">
+                <span class="w-2 h-2 bg-sky-400 rounded-full"></span>
+                Selenium
+              </li>
+              <li class="flex items-center gap-2">
+                <span class="w-2 h-2 bg-sky-400 rounded-full"></span>
+                Git & GitHub
+              </li>
+              <li class="flex items-center gap-2">
+                <span class="w-2 h-2 bg-sky-400 rounded-full"></span>
+                VS Code
+              </li>
+              <li class="flex items-center gap-2">
+                <span class="w-2 h-2 bg-sky-400 rounded-full"></span>
+                Visual Studio 2022
+              </li>
+            </ul>
+          </div>
+
+          <!-- Idiomas -->
+          <div class="bg-slate-800 p-6 rounded-lg border border-slate-700">
+            <h3 class="text-xl font-bold text-white mb-4 flex items-center gap-2">
+              <i data-lucide="globe" class="w-6 h-6 text-sky-400"></i>
+              Idiomas
+            </h3>
+            <ul class="space-y-2 text-slate-300">
+              <li class="flex items-center gap-2">
+                <span class="w-2 h-2 bg-sky-400 rounded-full"></span>
+                Español (Nativo)
+              </li>
+              <li class="flex items-center gap-2">
+                <span class="w-2 h-2 bg-sky-400 rounded-full"></span>
+                Inglés (Intermedio)
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Proyectos -->
+    <section class="py-12 bg-slate-800/50 border-t border-slate-700">
+      <div class="container mx-auto px-6 max-w-5xl">
+        <h2 class="text-3xl font-bold text-white mb-8 flex items-center gap-3">
+          <i data-lucide="briefcase" class="w-8 h-8 text-sky-400"></i>
+          Proyectos Destacados
+        </h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <!-- Dólar Ahora -->
+          <div
+            class="bg-slate-800 rounded-lg overflow-hidden border border-slate-700 hover:border-sky-400 transition-colors">
+            <div class="bg-black p-4">
+              <img src="../static/img/projects/dolar-ahora.png" alt="Dólar Ahora App"
+                class="w-full h-48 object-contain" />
+            </div>
+            <div class="p-6">
+              <h3 class="text-2xl font-bold text-white mb-3">Dólar Ahora</h3>
+              <p class="text-slate-300 mb-4">
+                App móvil para seguir dólares financieros argentinos. Cotizaciones en tiempo real de todos los dólares
+                financieros argentinos, convertidor de divisas e información actualizada del mercado.
+              </p>
+              <div class="mb-4">
+                <h4 class="text-sm font-semibold text-sky-400 mb-2">Tecnologías:</h4>
+                <div class="flex flex-wrap gap-2">
+                  <span class="px-3 py-1 bg-slate-700 text-slate-200 text-sm rounded-full">React Native</span>
+                  <span class="px-3 py-1 bg-slate-700 text-slate-200 text-sm rounded-full">TypeScript</span>
+                  <span class="px-3 py-1 bg-slate-700 text-slate-200 text-sm rounded-full">FastAPI</span>
+                </div>
+              </div>
+              <a href="../projects/dolar-ahora.html"
+                class="inline-flex items-center gap-2 text-sky-400 hover:text-sky-300 font-medium">
+                Ver más detalles
+                <i data-lucide="arrow-right" class="w-4 h-4"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Soprano -->
+          <div
+            class="bg-slate-800 rounded-lg overflow-hidden border border-slate-700 hover:border-sky-400 transition-colors">
+            <div class="bg-black p-4">
+              <img src="../static/img/projects/soprano.png" alt="Soprano Market & Finance App"
+                class="w-full h-48 object-contain" />
+            </div>
+            <div class="p-6">
+              <h3 class="text-2xl font-bold text-white mb-3">Soprano: Mercados & Finanzas</h3>
+              <p class="text-slate-300 mb-4">
+                Gestión de portfolios y seguimiento de acciones. Seguimiento de acciones, índices y mercados globales en
+                vivo con noticias financieras, ganadores, perdedores y acciones en tendencia.
+              </p>
+              <div class="mb-4">
+                <h4 class="text-sm font-semibold text-sky-400 mb-2">Tecnologías:</h4>
+                <div class="flex flex-wrap gap-2">
+                  <span class="px-3 py-1 bg-slate-700 text-slate-200 text-sm rounded-full">React Native</span>
+                  <span class="px-3 py-1 bg-slate-700 text-slate-200 text-sm rounded-full">TypeScript</span>
+                  <span class="px-3 py-1 bg-slate-700 text-slate-200 text-sm rounded-full">Python</span>
+                </div>
+              </div>
+              <a href="../projects/soprano.html"
+                class="inline-flex items-center gap-2 text-sky-400 hover:text-sky-300 font-medium">
+                Ver más detalles
+                <i data-lucide="arrow-right" class="w-4 h-4"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experiencia -->
+    <section class="py-12 border-t border-slate-700">
+      <div class="container mx-auto px-6 max-w-4xl">
+        <h2 class="text-3xl font-bold text-white mb-8 flex items-center gap-3">
+          <i data-lucide="building-2" class="w-8 h-8 text-sky-400"></i>
+          Experiencia Profesional
+        </h2>
+        <div class="space-y-8">
+          <!-- Experiencia 1 -->
+          <div class="bg-slate-800 p-6 rounded-lg border border-slate-700">
+            <div class="flex flex-col md:flex-row md:justify-between md:items-start mb-4">
+              <div>
+                <h3 class="text-xl font-bold text-white mb-1">Analista de Datos</h3>
+                <p class="text-sky-400 font-medium">Agencia de Recaudación y Control Aduanero</p>
+                <p class="text-slate-400 text-sm">Provincia de Buenos Aires, Argentina</p>
+              </div>
+              <p class="text-slate-400 text-sm mt-2 md:mt-0">Enero 2023 - Presente (2 años 9 meses)</p>
+            </div>
+            <div class="space-y-4 text-slate-300">
+              <div>
+                <h4 class="font-semibold text-white mb-2">• Desarrollo de Tableros de Control de Canales de Contacto
+                </h4>
+                <p class="text-sm">
+                  Desarrollo Full-Stack de un dashboard gerencial para la monitorización en tiempo real de los distintos
+                  canales de contacto con el ciudadano.
+                  Se utilizó Python (Backend) para la lógica de negocio y APIs, JavaScript, HTML y CSS (Frontend) para
+                  la presentación y la interactividad.
+                </p>
+              </div>
+              <div>
+                <h4 class="font-semibold text-white mb-2">• Implementación de Tablero de Gestión de Tareas</h4>
+                <p class="text-sm">
+                  Creación de un Tablero de Gestión de Tareas para uso interno, enfocado en la usabilidad y el alto
+                  rendimiento.
+                  React para la construcción de la interfaz; Next.js para routing y SSR.
+                </p>
+              </div>
+              <div>
+                <h4 class="font-semibold text-white mb-2">• Desarrollo Integral de Dashboard Operacional (ETL y
+                  Automatización)</h4>
+                <p class="text-sm">
+                  Ciclo completo de desarrollo de un dashboard para uso interno, abarcando desde la adquisición y
+                  preparación de los datos hasta su visualización final.
+                  Se utilizó Selenium para la automatización de la extracción de datos de fuentes web dinámicas; Pandas
+                  y Jupyter Notebook para el proceso ETL
+                  (limpieza y transformación); y JavaScript, HTML, CSS para la exposición y presentación de los
+                  resultados.
+                </p>
+              </div>
+              <div>
+                <h4 class="font-semibold text-white mb-2">• Análisis Avanzado de Datos para la Toma de Decisiones</h4>
+                <p class="text-sm">
+                  Realización de análisis exploratorios y estadísticos sobre grandes volúmenes de datos, transformando
+                  datos crudos en insights estratégicos.
+                  Uso intensivo de la librería Pandas en Python para la manipulación, agregación y procesamiento
+                  eficiente de Big Data y estructuras de datos complejas.
+                </p>
+              </div>
+              <div>
+                <h4 class="font-semibold text-white mb-2">• Automatización de Procesos Operativos (RPA)</h4>
+                <p class="text-sm">
+                  Implementación de soluciones de automatización para extracción de datos con aplicaciones web internas
+                  y externas.
+                  Selenium (Python) para la automatización y uso de bash.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Visión -->
+    <section class="py-12 bg-slate-800/50 border-t border-slate-700">
+      <div class="container mx-auto px-6 max-w-4xl">
+        <h2 class="text-3xl font-bold text-white mb-6 flex items-center gap-3">
+          <i data-lucide="eye" class="w-8 h-8 text-sky-400"></i>
+          Mi Visión
+        </h2>
+        <div class="bg-gradient-to-r from-sky-500/10 to-blue-500/10 p-8 rounded-lg border border-sky-500/30">
+          <p class="text-lg text-slate-200 leading-relaxed">
+            Quixxxxxxxxxxxxxxxxxxxxxxxx
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="py-16 border-t border-slate-700">
+      <div class="container mx-auto px-6 text-center">
+        <h2 class="text-3xl font-bold text-white mb-4">¿Trabajemos juntos?</h2>
+        <p class="text-lg text-slate-300 max-w-2xl mx-auto mb-8">
+          Estoy siempre abierto a nuevos proyectos y oportunidades de colaboración.
+          Si tienes una idea o proyecto en mente, no dudes en contactarme.
+        </p>
+        <div class="flex gap-4 justify-center flex-wrap">
+          <a href="mailto:nahueldefeudi@gmail.com"
+            class="bg-sky-500 hover:bg-sky-600 text-white font-bold py-3 px-8 rounded-full transition duration-300 inline-flex items-center gap-2">
+            <i data-lucide="mail" class="w-5 h-5"></i>
+            Enviar Email
+          </a>
+          <a href="https://www.linkedin.com/in/nahuel-leandro-defeudi-9271a1390" target="_blank"
+            rel="noopener noreferrer"
+            class="bg-slate-700 hover:bg-slate-600 text-white font-bold py-3 px-8 rounded-full transition duration-300 inline-flex items-center gap-2">
+            <i data-lucide="linkedin" class="w-5 h-5"></i>
+            Conectar en LinkedIn
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-slate-900 border-t border-slate-800">
+    <div class="container mx-auto px-6 py-6 text-center text-slate-400">
+      <p>&copy; 2025 Nahuel Leandro Defeudi. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="../static/js/script.js"></script>
+</body>
+
 </html>
