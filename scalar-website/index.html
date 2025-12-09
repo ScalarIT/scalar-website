@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ScalAr - Desarrollo de Aplicaciones Web y Mobile</title>
+    <link rel="icon" type="image/x-icon" href="static/img/misc/favicon.png">
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Iconos (Lucide) -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="static/css/style.css" />
+  </head>
+  <body class="antialiased">
+    <!-- Header y Navegación -->
+    <header
+      id="header"
+      class="bg-slate-900/95 backdrop-blur-sm fixed top-0 left-0 right-0 z-50 transition-all duration-300 shadow-lg border-b border-slate-700"
+    >
+      <div
+        class="container mx-auto px-6 py-4 flex justify-between items-center"
+      >
+        <a href="#inicio" class="text-3xl font-bold text-white tracking-wider">
+          Scal<span class="text-sky-400">Ar</span>
+        </a>
+        <nav class="hidden md:flex space-x-8">
+          <a href="#servicios" class="nav-link text-slate-200 font-medium"
+            >Servicios</a
+          >
+          <a href="#proyectos" class="nav-link text-slate-200 font-medium"
+            >Proyectos</a
+          >
+          <a href="#nosotros" class="nav-link text-slate-200 font-medium"
+            >Nosotros</a
+          >
+          <a href="#contacto" class="nav-link text-slate-200 font-medium"
+            >Contacto</a
+          >
+        </nav>
+        <button id="mobile-menu-button" class="md:hidden text-white">
+          <i data-lucide="menu"></i>
+        </button>
+      </div>
+      <!-- Menú Móvil -->
+      <div id="mobile-menu" class="hidden md:hidden bg-slate-900">
+        <a
+          href="#servicios"
+          class="block text-center py-3 px-4 text-slate-200 hover:bg-sky-500/20"
+          >Servicios</a
+        >
+        <a
+          href="#proyectos"
+          class="block text-center py-3 px-4 text-slate-200 hover:bg-sky-500/20"
+          >Proyectos</a
+        >
+        <a
+          href="#nosotros"
+          class="block text-center py-3 px-4 text-slate-200 hover:bg-sky-500/20"
+          >Nosotros</a
+        >
+        <a
+          href="#contacto"
+          class="block text-center py-3 px-4 text-slate-200 hover:bg-sky-500/20"
+          >Contacto</a
+        >
+      </div>
+    </header>
+
+    <main>
+      <!-- Sección Inicio (Banner) -->
+      <section
+        id="inicio"
+        class="min-h-screen flex items-center bg-cover bg-center bg-fixed"
+        style="
+          background-image: linear-gradient(
+              rgba(15, 23, 42, 0.8),
+              rgba(15, 23, 42, 1)
+            ),
+            url('https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=2400&h=1600&fit=crop&q=85&auto=format');
+        "
+      >
+        <div class="container mx-auto px-6 text-center">
+          <h1
+            class="text-4xl md:text-6xl font-bold text-white mb-4 leading-tight"
+          >
+            Construimos las
+            <span class="text-sky-400">Soluciones Digitales</span> del Futuro
+          </h1>
+          <p class="text-lg md:text-xl text-slate-300 max-w-3xl mx-auto">
+            En <span class="text-sky-400 font-semibold">ScalAr</span>,
+            transformamos ideas en aplicaciones web y móviles robustas,
+            escalables y centradas en el usuario.
+          </p>
+        </div>
+      </section>
+
+      <!-- Sección Servicios -->
+      <section id="servicios" class="py-20 md:py-32 border-t border-slate-800">
+        <div class="container mx-auto px-6">
+          <div class="text-center mb-12">
+            <h2 class="section-title text-3xl md:text-4xl font-bold text-white">
+              Qué Hacemos
+            </h2>
+          </div>
+          <div class="max-w-4xl mx-auto text-center">
+            <p class="text-lg text-slate-300 mb-6">
+              Nos especializamos en el ciclo completo de desarrollo de software.
+              Desde la conceptualización y el diseño de interfaces (UI/UX) hasta
+              la implementación, el despliegue y el mantenimiento. Nuestro
+              objetivo es crear productos de alta calidad que impulsen el
+              crecimiento de tu negocio.
+            </p>
+            <div class="grid md:grid-cols-2 gap-8 mt-10 text-left">
+              <div class="bg-slate-800 p-6 rounded-lg border border-slate-700">
+                <div class="flex items-center gap-4 mb-3">
+                  <i data-lucide="smartphone" class="w-8 h-8 text-sky-400"></i>
+                  <h3 class="text-xl font-semibold text-white">
+                    Desarrollo Mobile
+                  </h3>
+                </div>
+                <p class="text-slate-400">
+                  Creamos aplicaciones nativas e híbridas para iOS y Android,
+                  optimizadas para ofrecer una experiencia de usuario fluida y
+                  un rendimiento excepcional.
+                </p>
+              </div>
+              <div class="bg-slate-800 p-6 rounded-lg border border-slate-700">
+                <div class="flex items-center gap-4 mb-3">
+                  <i
+                    data-lucide="monitor-smartphone"
+                    class="w-8 h-8 text-sky-400"
+                  ></i>
+                  <h3 class="text-xl font-semibold text-white">
+                    Desarrollo Web
+                  </h3>
+                </div>
+                <p class="text-slate-400">
+                  Desarrollamos plataformas web a medida, desde landing pages
+                  hasta sistemas complejos, utilizando las tecnologías más
+                  modernas y eficientes del mercado.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Sección Proyectos -->
+      <section id="proyectos" class="py-20 md:py-32 bg-slate-800/50">
+        <div class="container mx-auto px-6">
+          <div class="text-center mb-12">
+            <h2 class="section-title text-3xl md:text-4xl font-bold text-white">
+              Nuestros Proyectos
+            </h2>
+          </div>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+            <!-- Proyecto 1: Dólar ahora -->
+            <a href="projects/dolar-ahora.html" class="block">
+              <div
+                class="bg-slate-800 rounded-lg overflow-hidden shadow-lg transform hover:-translate-y-2 transition-transform duration-300 group"
+              >
+                <div class="bg-black p-4">
+                  <img
+                    src="static/img/projects/dolar-ahora/dolar-ahora.png"
+                    alt="Captura de la aplicación Dólar ahora"
+                    class="w-full h-64 object-contain"
+                  />
+                </div>
+                <div class="p-6">
+                  <h3 class="text-xl font-bold text-white mb-2">Dólar ahora</h3>
+                  <p class="text-slate-400 text-sm">
+                    Cotizaciones en tiempo real de todos los dólares financieros
+                    argentinos, convertidor de divisas e información actualizada
+                    del mercado argentino.
+                  </p>
+                  <p class="text-sky-400 text-sm mt-3 font-medium">Ver más →</p>
+                </div>
+              </div>
+            </a>
+            <!-- Proyecto 2: Soprano -->
+            <a href="projects/soprano.html" class="block">
+              <div
+                class="bg-slate-800 rounded-lg overflow-hidden shadow-lg transform hover:-translate-y-2 transition-transform duration-300 group"
+              >
+                <div class="bg-black p-4">
+                  <img
+                    src="static/img/projects/soprano/soprano.png"
+                    alt="Captura de la aplicación Soprano: Mercados & Finanzas"
+                    class="w-full h-64 object-contain"
+                  />
+                </div>
+                <div class="p-6">
+                  <h3 class="text-xl font-bold text-white mb-2">
+                    Soprano: Mercados & Finanzas
+                  </h3>
+                  <p class="text-slate-400 text-sm">
+                    Seguimiento de acciones, índices y mercados globales en
+                    vivo. Interfaz simple con noticias financieras, ganadores,
+                    perdedores y acciones en tendencia.
+                  </p>
+                  <p class="text-sky-400 text-sm mt-3 font-medium">Ver más →</p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Sección Nosotros -->
+      <section id="nosotros" class="py-20 md:py-32">
+        <div class="container mx-auto px-6">
+          <div class="text-center mb-12">
+            <h2 class="section-title text-3xl md:text-4xl font-bold text-white">
+              Fundadores
+            </h2>
+          </div>
+          <div class="flex flex-wrap justify-center gap-10">
+            <!-- Fundador 1 -->
+            <div class="text-center">
+              <a href="founders/nahuel-defeudi.html" class="block group">
+                <img
+                  src="static/img/founders/nahuel.jfif"
+                  alt="Foto Nahuel Defeudi"
+                  class="w-40 h-40 rounded-full mx-auto mb-4 border-4 border-sky-400 shadow-xl object-cover"
+                />
+                <h3 class="text-2xl font-bold text-white group-hover:text-sky-400 transition-colors" >
+                  Nahuel Defeudi
+                </h3>
+                <p class="text-sky-400 font-medium">Co-Fundador</p>
+              </a>
+            </div>
+            <!-- Fundador 2 -->
+            <div class="text-center">
+              <a href="founders/franco-galfrascoli.html" class="block group">
+                <img
+                  src="static/img/founders/franco.png"
+                  alt="Foto Franco Galfrascoli"
+                  class="w-40 h-40 rounded-full mx-auto mb-4 border-4 border-sky-400 shadow-xl object-cover group-hover:border-sky-300 transition-colors"
+                />
+                <h3 class="text-2xl font-bold text-white group-hover:text-sky-400 transition-colors" >
+                  Franco Galfrascoli
+                </h3>
+                <p class="text-sky-400 font-medium">Co-Fundador</p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Sección Contacto (Bonus) -->
+      <section id="contacto" class="py-20 md:py-32 bg-slate-800/50">
+        <div class="container mx-auto px-6 text-center">
+          <h2
+            class="section-title text-3xl md:text-4xl font-bold text-white mb-4"
+          >
+            ¿Tenés alguna consulta?
+          </h2>
+          <p class="text-lg text-slate-300 max-w-2xl mx-auto mb-8">
+            Contáctanos y te la respondemos de inmediato.
+          </p>
+          <a
+            href="mailto:scalar.ar@gmail.com"
+            class="bg-sky-500 hover:bg-sky-600 text-white font-bold py-3 px-8 rounded-full transition duration-300 inline-block text-lg"
+          >
+            Contáctanos
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-slate-900 border-t border-slate-800">
+      <div class="container mx-auto px-6 py-6 text-center text-slate-400">
+        <p>&copy; 2025 ScalAr. Todos los derechos reservados.</p>
+      </div>
+    </footer>
+
+    <script src="static/js/script.js"></script>
+  </body>
+</html>
